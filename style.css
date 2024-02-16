@@ -1,0 +1,144 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  
+  font-family: "Markazi text" ,serif;
+  margin-bottom:3rem;
+  margin-left:5%;
+  margin-right:5%;
+
+  text-align:center;
+  color:white;
+}
+
+header > img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:5rem;
+  height:8rem;
+  margin-top:0rem;
+
+}
+nav{
+  height:3rem;
+  font-weight:bolder;
+  background-color:rgb(163, 156, 62) ;
+  border-radius:1rem;
+  overflow:hidden;
+  margin-top:3rem;
+  margin-bottom:1rem;
+  
+ 
+ 
+}
+nav ul{
+  list-style:none;
+  text-align:center;
+  display:flex;
+}
+nav li {
+  flex:1;
+  flex-wrap: wrap;
+  margin-top:1rem;
+}
+.Promotion{
+  background-image:url("Lucky-Shrub-logos/image1.jpg");
+  height:20rem;
+  
+  background-size:cover;
+  border-radius:3rem;
+  
+}
+.Promotion article{
+  
+  margin-left:6rem;
+  
+  
+}
+.Promotion h1{
+  color:rgb(255, 2, 2);
+  font-weight:bolder;
+  font-size:2rem;
+  margin-top:8rem;
+  margin-bottom:0rem;
+  background-color:rgb(34, 66, 34);
+  text-align: center;
+  
+
+}
+.Promotion p{
+  background-color:rgb(34, 66, 34);
+  color:white;
+  font-size:1.5rem;
+  margin-top:0rem;
+  padding: 1%;
+}
+h2{
+  font-weight: bolder;
+  margin-top:0rem;
+  margin-bottom:1rem;
+  text-align: center;
+  font-style: italic;
+  color:rgb(228, 224, 18);
+  font-size: 2rem;
+}
+section{
+  display:flex;
+  flex-direction:column;
+  flex-flow:row wrap;
+  justify-content: space-between;
+}
+article{
+  flex:1;
+  margin-right:5rem; 
+  flex-wrap:wrap;
+  
+  align-items:flex-end;
+  
+  
+}
+.threeflex>article{
+  background-color:rgb(94, 160, 94) ;
+  margin-top: 2rem;
+  border-radius:2rem;
+  margin-right:2rem ;
+  flex-wrap:wrap;
+
+}
+.infoImg{
+  width:20rem;
+  height:10rem;
+}
+footer{
+  margin-top:2rem;
+  display:flex;
+  background-color: #3e4e28;
+  color: #fff;
+  text-align: center;
+  padding-inline-start:3rem;
+  margin-bottom:0rem;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  
+  
+}
+footer div{
+  flex: 1;
+  flex-wrap: wrap;
+  
+ 
+}
+ footer img{
+width:2.5rem;
+height:5rem;
+margin-right:30rem;
+}
+.line {
+  border-top: 0.1rem solid #fff;
+  margin-top: 1rem; /* Adjust the margin based on your design */
+}
+
